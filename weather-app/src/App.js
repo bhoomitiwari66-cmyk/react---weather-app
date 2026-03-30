@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
+
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
